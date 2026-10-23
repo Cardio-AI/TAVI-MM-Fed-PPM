@@ -1,0 +1,76 @@
+# Private runtime configuration
+.env
+.env.*
+.secrets/
+conf/
+private_conf/
+config.local.*
+
+# Clinical and research data
+data/
+datasets/
+demographics.csv
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.nii
+*.nii.gz
+*.dcm
+*.mat
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+*.feather
+*.pkl
+
+# Credentials and infrastructure material
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+*.ovpn
+
+# Models and experiment artifacts (may retain information about training data)
+artifacts/
+checkpoints/
+model_cache/
+outputs/
+runs/
+researcher_results/
+.hydra/
+hydra/
+multirun/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+events.out.tfevents.*
+
+# Archives can contain any of the above
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
